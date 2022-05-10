@@ -6,6 +6,7 @@
 .idea
 target/
 .classpath
+djmall.iml
 # BlueJ files
 *.ctxt
 
