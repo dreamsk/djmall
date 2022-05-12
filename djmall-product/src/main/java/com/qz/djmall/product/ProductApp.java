@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-@MapperScan("com/qz/djmall/product/dao")
+@MapperScan("com.qz.djmall.product.dao")
 public class ProductApp {
     public static void main(String[] args) {
         SpringApplication.run(ProductApp.class, args);

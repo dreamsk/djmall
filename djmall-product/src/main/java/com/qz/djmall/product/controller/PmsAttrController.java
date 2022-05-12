@@ -62,6 +62,7 @@ public class PmsAttrController {
     public R save(@RequestBody PmsAttrEntity pmsAttr){
 		pmsAttrService.save(pmsAttr);
 
+
         return R.ok();
     }
 

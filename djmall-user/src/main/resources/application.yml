@@ -1,0 +1,11 @@
+server:
+    port: 18082
+  
+spring:
+    application:
+        name: ums
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+
+
+
